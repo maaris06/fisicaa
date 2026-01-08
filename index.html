@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulación de Choques en Física</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h1>Simulación de Choques</h1>
+<div id="explicacion1"></div>
+
+  <div class="selec">
+    <label for="tipoChoque">¿Qué tipo de choque quieres ver?:</label>
+    <select id="tipoChoque">
+      <option value="elastico">Elástico</option>
+      <option value="inelastico">Inelástico</option>
+      <option value="perfectamente-inelastico">Perfectamente Inelástico</option>
+    </select>
+    <button class="boton" onclick="iniciar()">Toca aqui</button>
+  </div>
+
+  <div class="cont">
+    <div id="objeto1" class="objetos"></div>
+    <div id="objeto2" class="objetos"></div>
+  </div>
+
+  <div id="explicacion" class="explicacion"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
